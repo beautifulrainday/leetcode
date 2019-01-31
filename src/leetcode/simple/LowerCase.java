@@ -16,14 +16,23 @@ public class LowerCase {
     }
 
     public static String toLowerCase(String str) {
-        String[] strs = str.split(",");
+        //String[] strs = str.split(",");
+        String result = "";
+
         List<String> stringList = new ArrayList<>();
-        for (String c : strs) {
-            System.out.print(Integer.valueOf(c));
-            c = c.toUpperCase();
+        for (int i = 0; i < str.length(); i++) {
+            String c = str.charAt(i) + "";
+            Integer temp = Integer.valueOf(c);
+            if (temp < 90) {
+                c = c.toLowerCase();
+            }
             stringList.add(c);
         }
-        return "";
+        for (String s : stringList) {
+            result += s;
+        }
+
+        return result;
     }
 
 }
