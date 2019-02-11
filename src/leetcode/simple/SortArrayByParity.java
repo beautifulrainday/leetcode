@@ -12,7 +12,7 @@ import java.util.List;
  * 输出：[2,4,3,1]
  * 输出 [4,2,3,1]，[2,4,1,3] 和 [4,2,1,3] 也会被接受。
  */
-public class sortArrayByParity {
+public class SortArrayByParity {
 
     public static void main(String[] args) {
         int[] A = {3, 1, 2, 4};
