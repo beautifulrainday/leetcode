@@ -13,7 +13,7 @@ import java.util.Set;
  * 输入：[2,1,2,5,3,2]
  * 输出：2
  */
-public class repeatedtimes {
+public class repeatedNTimes {
 
     public static void main(String[] args) {
         int[] A = {2, 1, 2, 5, 3, 2, 2, 7};
