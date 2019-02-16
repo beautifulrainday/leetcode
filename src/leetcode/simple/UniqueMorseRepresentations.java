@@ -24,7 +24,7 @@ import java.util.Set;
  * <p>
  * 共有 2 种不同翻译, "--...-." 和 "--...--.".
  */
-public class uniqueMorseRepresentations {
+public class UniqueMorseRepresentations {
 
     public static void main(String[] args) {
         String[] words = {"gin", "zen", "gig", "msg"};
