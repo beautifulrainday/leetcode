@@ -27,6 +27,23 @@ public class DeleteNode {
         ListNode(int x) {
             val = x;
         }
+
+        ListNode(int x, ListNode next) {
+            this.val = x;
+            this.next = next;
+        }
+
+        public void print(ListNode node) {
+            if (node != null) {
+                System.out.print(node.val + " ");
+            }
+            ListNode nextNode = node.next;
+            if (nextNode == null) {
+                return;
+            } else {
+                print(nextNode);
+            }
+        }
     }
 
     public static void deleteNode(ListNode node) {
