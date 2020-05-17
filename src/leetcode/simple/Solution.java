@@ -35,4 +35,19 @@ public class Solution {
         }
         return head;
     }
+
+    public static Integer getKthFromEnd1(ListNode head, int k) {
+        ListNode head1 = head;
+        ListNode head2 = head;
+        for (int i = 0; i < k; i++) {
+            head1 = head1.next;
+        }
+        while (head1 != null) {
+            head1 = head1.next;
+            head2 = head2.next;
+        }
+        return head2.val;
+    }
+
+
 }
