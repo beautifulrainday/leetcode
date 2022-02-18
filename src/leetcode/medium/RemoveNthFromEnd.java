@@ -1,3 +1,4 @@
+/*
 package leetcode.medium;
 
 //给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
@@ -71,22 +72,27 @@ public class RemoveNthFromEnd {
     }
 
     public static void main(String[] args) {
-        /*ListNode listNode5 = new ListNode(5, null);
+        */
+/*ListNode listNode5 = new ListNode(5, null);
         ListNode listNode4 = new ListNode(4, listNode5);
         ListNode listNode3 = new ListNode(3, listNode4);
         ListNode listNode2 = new ListNode(2, listNode3);
-        ListNode head = new ListNode(1, listNode2);*/
+        ListNode head = new ListNode(1, listNode2);*//*
+
         ListNode listNode2 = new ListNode(2, null);
         ListNode head = new ListNode(1, listNode2);
         ListNode res = removeNthFromEnd(head, 1);
         System.out.println(1);
 
-        /*String s1 = new StringBuilder("aa").append("cc").toString();
+        */
+/*String s1 = new StringBuilder("aa").append("cc").toString();
         String s2 = "aacc".intern();
         System.out.println(s1==s2);
 
         String s11 = new StringBuilder("ja").append("va").toString();
         String s22 = "java".intern();
-        System.out.println(s11==s22);*/
+        System.out.println(s11==s22);*//*
+
     }
 }
+*/
